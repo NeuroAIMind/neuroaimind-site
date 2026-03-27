@@ -26,8 +26,8 @@ export default function HomePage() {
           <div className="logo-block">
             <svg
               className="logo-mark"
-              width="72"
-              height="72"
+              width="100"
+              height="100"
               viewBox="0 0 72 72"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,8 @@ export default function HomePage() {
               <rect x="36" y="4" width="4" height="64" fill="white" />
             </svg>
             <div className="logo-text">
-              <span className="logo-line1">NeuroAI Mind</span>
+              <span className="logo-line1">NeuroAI</span>
+              <span className="logo-line1">Mind</span>
             </div>
           </div>
         </div>
@@ -65,7 +66,7 @@ export default function HomePage() {
       <section className="mission-box-section fade-in">
         <div className="container">
           <div className="mission-box">
-            <h2>NeuroAI Mind</h2>
+            <h2>NeuroAI Mind Labs</h2>
             <p>
               We are enabling a new science of intelligence by building
               brain-inspired AI systems that:
