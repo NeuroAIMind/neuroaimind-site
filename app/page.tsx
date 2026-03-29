@@ -26,8 +26,8 @@ export default function HomePage() {
           <div className="logo-block">
             <svg
               className="logo-mark"
-              width="100"
-              height="100"
+              width="76"
+              height="76"
               viewBox="0 0 100 100"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
