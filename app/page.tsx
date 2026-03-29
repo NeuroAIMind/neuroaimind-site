@@ -51,7 +51,7 @@ export default function HomePage() {
             </svg>
             <div className="logo-text">
               <span className="logo-line1">NeuroAI</span>
-              <span className="logo-line1">Mind</span>
+              <span className="logo-line1">Mind Labs</span>
             </div>
           </div>
         </div>
@@ -59,25 +59,19 @@ export default function HomePage() {
 
       <section className="hero">
         <div className="container">
-          <h1>Neurons to Mind. Brain to AI.</h1>
+          <h1>Neurons to Mind — Brain to AI</h1>
         </div>
       </section>
 
-      <section className="mission-box-section fade-in">
+      <section className="intro-section fade-in">
         <div className="container">
-          <div className="mission-box">
-            <h2>NeuroAI Mind Labs</h2>
-            <p>
-              We are enabling a new science of intelligence by building
-              brain-inspired AI systems that:
-            </p>
-            <ul className="mission-list">
-              <li>(1) Are grounded in biology</li>
-              <li>(2) Model human emotion and social intelligence</li>
-              <li>(3) Build persistent, structured memory</li>
-              <li>(4) Enable controllable reasoning and planning</li>
-            </ul>
-          </div>
+          <p className="intro-text">
+            We combine neuroscience and AI to understand how neural systems
+            produce emotion, social cognition, and behavior—and to translate
+            these insights into AI that serves humanity. By grounding models in
+            the brain, we aim to build systems aligned with how humans think
+            and feel.
+          </p>
         </div>
       </section>
 
@@ -87,57 +81,76 @@ export default function HomePage() {
             <div className="prose-group fade-in">
               <h3 className="prose-heading">The Challenge</h3>
               <p>
-                Our goal is to understand how brain activity gives rise to emotion,
-                social cognition, and behavior — and to build better models of
-                intelligence and brain disorders.
+                We lack unified models that connect neural mechanisms to
+                emotion, social cognition, and behavior.
               </p>
               <p>
-                The brain operates across many scales, from neurons and circuits to
-                large-scale systems. Yet we still lack unified models that connect
-                these levels.
+                The brain operates across many scales, from diverse cell types
+                and circuits to large-scale systems, yet these levels remain
+                fragmented in our understanding.
               </p>
               <p>
-                Modern AI can recognize patterns, but it does not explain how cognition
-                and emotion emerge from biological systems.
+                Modern AI systems can recognize patterns at scale, but they do
+                not explain how cognition and emotion emerge—or how they are
+                implemented in biological systems.
+              </p>
+              <p>
+                Bridging this gap requires models that are both biologically
+                grounded and computationally precise.
               </p>
             </div>
 
             <div className="prose-group fade-in">
               <h3 className="prose-heading">Our Approach</h3>
               <p>
-                We build brain-inspired computational frameworks grounded in
-                neuroscience data. Our models are designed not only to predict, but to
-                explain — linking neural mechanisms to emotion, social cognition, and
-                behavior.
+                We follow a two-stage, closed-loop framework:
+              </p>
+              <h4 className="prose-subheading">
+                Stage 1 — From Neurons to Mind
+              </h4>
+              <p>
+                We investigate how interactions among diverse neural populations
+                give rise to emotion and social intelligence.
               </p>
               <p>
-                We develop models that integrate structured memory, controllable
-                reasoning, and top-down feedback to capture how intelligence emerges
-                from the brain — with a focus on emotion, social cognition, and
-                behavior.
+                By modeling the dynamics of neural ensembles, we extract
+                computational principles grounded in biological mechanisms.
+              </p>
+              <h4 className="prose-subheading">
+                Stage 2 — From Brain to AI
+              </h4>
+              <p>
+                We translate these principles into computational models that
+                incorporate feedback, memory, and structured representations of
+                internal state.
               </p>
               <p>
-                These models enable systems to use memory, guide reasoning, and adapt
-                behavior through feedback.
+                These models are not only used to perform tasks, but to generate
+                and test hypotheses about how cognition and emotion are
+                implemented in the brain—closing the loop between neuroscience
+                and AI.
               </p>
             </div>
 
             <div className="prose-group fade-in">
               <h3 className="prose-heading">Vision &amp; Impact</h3>
               <p>
-                Our long-term vision is to develop biologically grounded models of the
-                brain that advance neuroscience, inform AI, and open new paths for
-                treating brain disorders.
+                Our goal is to build biologically grounded models of
+                intelligence that:
+              </p>
+              <ul className="vision-list">
+                <li>Advance our understanding of the brain</li>
+                <li>Inform the design of next-generation AI systems</li>
+                <li>Enable new approaches to brain disorders</li>
+              </ul>
+              <p>
+                By linking mechanism to function, we aim to establish a new
+                foundation for studying intelligence across biological and
+                artificial systems.
               </p>
               <p>
-                By grounding AI in the brain, we aim to create systems that are more
-                interpretable, more controllable, and better aligned with human
-                cognition.
-              </p>
-              <p>
-                Our work has the potential to impact how we understand and treat brain
-                disorders, including anxiety, depression, and neurodegenerative
-                disease.
+                This work will reshape how we understand and treat conditions
+                such as anxiety, depression, and neurodegenerative disease.
               </p>
             </div>
 
@@ -151,7 +164,8 @@ export default function HomePage() {
           </div>
 
           <blockquote className="belief-callout fade-in">
-            To build intelligent AI, we must understand what makes us human.
+            Understanding the brain is the foundation for building AI that
+            truly aligns with human intelligence.
           </blockquote>
 
           <p className="collaboration-line fade-in">
