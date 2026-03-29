@@ -62,7 +62,7 @@ a:hover {
 .logo-block {
   display: inline-flex;
   align-items: flex-start;
-  gap: 0.45rem;
+  gap: 0.55rem;
 }
 
 
@@ -124,7 +124,7 @@ a:hover {
 
 .logo-line {
   font-family: var(--font-body);
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-weight: 400;
   color: #111111;
   letter-spacing: -0.02em;
