@@ -41,7 +41,7 @@ export default function HomePage() {
             </svg>
             <div className="logo-text">
               <span className="logo-line"><strong>NeuroAI</strong></span>
-              <span className="logo-line"><strong>Mind</strong> Labs</span>
+              <span className="logo-line"><strong>Mind</strong> <span className="labs">Labs</span></span>
             </div>
           </div>
         </div>
