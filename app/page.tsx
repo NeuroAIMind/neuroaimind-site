@@ -28,30 +28,20 @@ export default function HomePage() {
               className="logo-mark"
               width="100"
               height="100"
-              viewBox="0 0 72 72"
+              viewBox="0 0 100 100"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <defs>
-                <linearGradient id="brain-grad" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stopColor="#0ea5e9" />
-                  <stop offset="100%" stopColor="#6366f1" />
-                </linearGradient>
-                <linearGradient id="ai-grad" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stopColor="#6366f1" />
-                  <stop offset="100%" stopColor="#a855f7" />
-                </linearGradient>
-              </defs>
-              {/* left half: organic/brain */}
-              <path className="logo-brain" d="M36 4 C16 4, 4 20, 4 36 C4 52, 16 68, 36 68 Z" fill="url(#brain-grad)" />
-              {/* right half: geometric/AI */}
-              <rect className="logo-ai" x="40" y="4" width="28" height="64" fill="url(#ai-grad)" />
-              {/* gap between */}
-              <rect x="36" y="4" width="4" height="64" fill="white" />
+              {/* Left half: organic (rounded corner) */}
+              <path className="logo-brain" d="M46,8 L16,8 C8,8 8,16 8,24 L8,76 C8,84 14,92 24,92 L46,92 Z" fill="#111111" />
+              {/* Right half: geometric (sharp corners) */}
+              <path className="logo-ai" d="M54,8 L88,8 L88,92 L54,92 Z" fill="#111111" />
+              {/* Single half cut on left side */}
+              <rect x="8" y="47" width="38" height="6" fill="white" />
             </svg>
             <div className="logo-text">
-              <span className="logo-line1">NeuroAI</span>
-              <span className="logo-line1">Mind Labs</span>
+              <span className="logo-line"><strong>NeuroAI</strong></span>
+              <span className="logo-line"><strong>Mind</strong> Labs</span>
             </div>
           </div>
         </div>
@@ -59,7 +49,7 @@ export default function HomePage() {
 
       <section className="hero">
         <div className="container">
-          <h1>Neurons to Mind — Brain to AI</h1>
+          <h1 className="hero-tagline">Neurons to Mind. Brain to AI.</h1>
         </div>
       </section>
 
@@ -81,22 +71,18 @@ export default function HomePage() {
             <div className="prose-group fade-in">
               <h3 className="prose-heading">The Challenge</h3>
               <p>
-                We lack unified models that connect neural mechanisms to
-                emotion, social cognition, and behavior.
+                We do not yet understand how the brain gives rise to emotion,
+                social intelligence, and behavior.
               </p>
               <p>
-                The brain operates across many scales, from diverse cell types
-                and circuits to large-scale systems, yet these levels remain
-                fragmented in our understanding.
+                Current approaches are fragmented across scales—from cells to
+                whole-brain activity—without a unifying framework. Modern AI
+                can model behavior but does not explain how the mind emerges.
               </p>
               <p>
-                Modern AI systems can recognize patterns at scale, but they do
-                not explain how cognition and emotion emerge—or how they are
-                implemented in biological systems.
-              </p>
-              <p>
-                Bridging this gap requires models that are both biologically
-                grounded and computationally precise.
+                Bridging this gap requires integrating across scales—from
+                cellular mechanisms to behavior—and developing biologically
+                grounded models of the mind.
               </p>
             </div>
 
@@ -164,8 +150,8 @@ export default function HomePage() {
           </div>
 
           <blockquote className="belief-callout fade-in">
-            Understanding the brain is the foundation for building AI that
-            truly aligns with human intelligence.
+            Understanding the mind is the foundation for building AI that
+            truly aligns with human.
           </blockquote>
 
           <p className="collaboration-line fade-in">
