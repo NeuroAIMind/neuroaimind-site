@@ -56,9 +56,10 @@ export default function HomePage() {
       <section className="intro-section fade-in">
         <div className="container">
           <p className="intro-text">
-            We combine neuroscience and AI to understand how the brain and body
-            give rise to emotion. We build brain-grounded intelligent systems
-            that reflect how humans think and feel, advancing mental health.
+            We bring together biology, psychology, neuroscience, and AI to
+            uncover how brain–body systems generate emotion—and translate these
+            insights into intelligent systems and biomedical technologies that
+            advance mental health.
           </p>
         </div>
       </section>
@@ -70,75 +71,62 @@ export default function HomePage() {
               <h3 className="prose-heading">The Challenge</h3>
               <p>
                 We do not yet understand how neural and physiological activity
-                gives rise to emotion.
+                gives rise to emotion—especially as it unfolds over time and
+                across individuals.
               </p>
               <p>
-                Current approaches remain fragmented across levels of
-                analysis—from cellular mechanisms to whole-brain and body
-                dynamics—without a unifying framework that links mechanism to
-                function. Modern AI can model behavior, but it does not yet
-                explain how emotion emerges from biological systems or truly
-                understand emotion.
+                Current approaches remain fragmented across levels of analysis,
+                and modern AI neither explains how emotion emerges from
+                biological systems nor reflects how humans truly think and feel.
               </p>
               <p>
-                As a result, our ability to develop precise and personalized
-                approaches to mental health remains limited, with current
-                treatments often failing to account for individual differences
-                in underlying neural and physiological mechanisms.
-              </p>
-              <p>
-                Bridging this gap requires integrating studies across scales,
-                developing models that are both biologically grounded and
-                computationally precise, and translating these insights into
-                more precise and personalized approaches to mental health.
+                The mental health crisis is growing and has become one of the
+                defining challenges of our time. Addressing it requires a
+                collective effort to develop innovative treatments that account
+                for individual differences in underlying neural and
+                physiological mechanisms—something current approaches often
+                fail to do.
               </p>
             </div>
 
             <div className="prose-group fade-in">
               <h3 className="prose-heading">Our Approach</h3>
               <p>
-                We study how emotion emerges across scales using a closed-loop
-                framework that connects neuroscience and AI.
+                We study how emotion emerges and evolves across scales using a
+                closed-loop framework that connects biology, brain science,
+                and AI.
               </p>
               <p>
-                We investigate the cellular basis of emotion and how it emerges
-                from interactions within neural populations and their coupling
-                with the body across circuit and system levels, giving rise to
-                structured, dynamic patterns of neural activity that encode
-                emotional states.
+                We investigate the cellular basis of emotion and how it arises
+                from interactions within neural populations, brain circuits, and
+                neural systems, and their coupling with the body. By integrating
+                these biological insights, we build intelligent systems that
+                generate new hypotheses and guide innovation through closed-loop
+                discovery.
               </p>
               <p>
-                By integrating neural, physiological, and behavioral data with
-                computational modeling, we uncover the mechanisms that govern
-                these brain–body states and use them to build brain-grounded
-                intelligent systems that generate and test hypotheses about how
-                emotion is implemented in the brain.
-              </p>
-              <p>
-                Building on these foundations, we develop tools and platforms
-                to advance human mental health.
+                Building on these foundations, we develop advanced biomedical
+                tools to advance human mental health.
               </p>
             </div>
 
             <div className="prose-group fade-in">
               <h3 className="prose-heading">Vision &amp; Impact</h3>
               <p>
-                Our goal is to establish a mechanistic foundation for
-                understanding emotion.
+                Our goal is to establish a mechanistic, predictive, and
+                controllable foundation for understanding emotion.
               </p>
-              <p>
-                By linking neural mechanisms to computational models, we aim to:
-              </p>
+              <p>We aim to:</p>
               <ul className="vision-list">
-                <li>Advance our understanding of the human mind</li>
-                <li>Inform the design of next-generation AI systems</li>
-                <li>Enable new approaches to mental health</li>
+                <li>Advance understanding of how emotion emerges and evolves in the brain</li>
+                <li>Enable intelligent systems that better understand humans</li>
+                <li>Enable more precise and personalized approaches to mental health</li>
               </ul>
               <p>
-                This work opens a path toward more interpretable, controllable,
-                and human-aligned AI, and toward improved understanding and
-                treatment of conditions such as anxiety, depression, and
-                neurodegenerative disease.
+                This work opens new ways to understand, predict, and treat
+                conditions such as anxiety, depression, addiction, and
+                neurodegenerative disease—and provides a path toward more
+                interpretable, controllable, and human-aligned AI.
               </p>
             </div>
 
@@ -150,9 +138,8 @@ export default function HomePage() {
                 community.
               </p>
               <p>
-                We focus on uncovering the neural mechanisms of emotion and
-                translating these insights into computational models of the
-                mind to advance mental health.
+                Our mission is to bridge brain science and AI to enable a deeper
+                understanding of human emotion and to advance mental health.
               </p>
               <p>
                 We welcome collaboration with researchers, clinicians, and
