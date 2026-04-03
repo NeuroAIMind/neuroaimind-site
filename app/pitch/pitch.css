@@ -1,0 +1,66 @@
+/* Pitch Deck — full-viewport slide layout */
+
+.deck {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.deck-track {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-content {
+  width: min(880px, calc(100% - 4rem));
+  max-height: calc(100vh - 6rem);
+  overflow: hidden;
+}
+
+/* Slide counter */
+
+.deck-nav {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 2rem;
+  z-index: 10;
+}
+
+.deck-counter {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+/* Print / PDF export */
+
+@media print {
+  .deck {
+    position: static;
+    overflow: visible;
+  }
+
+  .deck-track {
+    transform: none !important;
+    transition: none;
+  }
+
+  .slide {
+    height: 100vh;
+    page-break-after: always;
+    break-after: page;
+  }
+
+  .deck-nav {
+    display: none;
+  }
+}
