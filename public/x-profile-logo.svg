@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <!-- White background -->
+  <rect width="400" height="400" fill="#ffffff"/>
+
+  <!-- Logo mark scaled from icon.svg, centered -->
+  <g transform="translate(68, 60) scale(2.8)">
+    <!-- Left half: organic (rounded corner) -->
+    <path d="M46,8 L16,8 C8,8 8,16 8,24 L8,76 C8,84 14,92 24,92 L46,92 Z" fill="#111111"/>
+    <!-- Right half: geometric (sharp corners) -->
+    <path d="M54,8 L88,8 L88,92 L54,92 Z" fill="#111111"/>
+    <!-- Single half cut on left side -->
+    <rect x="8" y="47" width="38" height="6" fill="white"/>
+  </g>
+</svg>
